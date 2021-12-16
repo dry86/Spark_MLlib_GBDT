@@ -4,7 +4,7 @@ import java.util.Date
 import org.apache.spark.ml.Pipeline
 import org.apache.spark.ml.feature.VectorAssembler
 import org.apache.spark.ml.regression.{GBTRegressor}
-import org.apache.spark.sql.{DataFrame, SparkSession}
+import org.apache.spark.sql.{DataFrame, SparkSession} 
 
 object PricePaidRecords extends Serializable{
   def main(args: Array[String]): Unit = {
@@ -71,7 +71,7 @@ object PricePaidRecords extends Serializable{
     println("总时间: " ,time4-time1)   
     println("date1: " ,date1)
     println("date2: " ,date2)
-    println("date3: " ,date3)
+    println("date3: " ,date3) 
     println("date4: " ,date4)
 
   }
