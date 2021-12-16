@@ -68,7 +68,7 @@ object PricePaidRecords extends Serializable{
     println("读取数据: " ,time2-time1)
     println("模型训练: " ,time3-time2)
     println("预测: " ,time4-time3)
-    println("总时间: " ,time4-time1)
+    println("总时间: " ,time4-time1)   
     println("date1: " ,date1)
     println("date2: " ,date2)
     println("date3: " ,date3)
