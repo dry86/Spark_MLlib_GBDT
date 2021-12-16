@@ -1,4 +1,4 @@
-# Spark_MLlib_GDBT
+# Spark_MLlib_GBDT
 Spark 使用GBDT（梯度提升树）算法预测土壤干旱情况
 
 数据集地址：https://www.kaggle.com/cdminix/us-drought-meteorological-data
